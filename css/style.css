@@ -306,7 +306,22 @@ height: 300px;
     border: solid;
     color: rgb(44, 3, 71);
     object-fit: cover;
+    transition: all 1s;
 }
+
+.imagenesAccesorios:hover{
+    
+    display: inline;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
 
 .parrafosAccesorios p{
     
