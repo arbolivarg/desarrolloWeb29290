@@ -64,8 +64,20 @@ body{
     border: solid;
     color: rgb(44, 3, 71);
     object-fit: cover;
+    transition: all 1s;
 }
 
+.imagenCarruselAccesorios:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
 
 .imagenCarruselZapatos{
     display: inline;
@@ -75,6 +87,19 @@ body{
     margin: 10px 30px;
     border: solid;
     color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselZapatos:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
     object-fit: cover;
 }
 
@@ -87,6 +112,19 @@ body{
     border: solid;
     color: rgb(44, 3, 71);
     object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselBuzos:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
 }
 
 .imagenCarruselJoyeria{
@@ -98,8 +136,20 @@ body{
     border: solid;
     color: rgb(44, 3, 71);
     object-fit: cover;
+    transition: all 1s;
 }
 
+.imagenCarruselJoyeria:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
 .gridContainer{
     display: grid;
     grid-template-rows: 400px;
