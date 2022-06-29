@@ -4,24 +4,29 @@
 }
 
 body{
-    background-color: rgb(197, 119, 219);
+    background-color: rgb(255, 255, 255);
 }
 
 .cabecera{
 
-    margin: 0;
+    background: linear-gradient(-90deg, rgb(211, 166, 223), white);
+    background-size: 100%;
+    width: 100%;
+    padding: 1em;
+}
+
+.navClass {
     background: linear-gradient(-90deg, rgb(211, 166, 223), white);
     background-size: cover;
-    width: 100%;
-    min-height: 200px;
     padding: 1em;
 }
 
 .logo{
-    height: 135px;
-    width: 135x;
+    height: 15%;
+    width: 15%;
     
 }
+
 
 
 .menu a:hover{
@@ -53,6 +58,15 @@ body{
     color: rgb(44, 3, 71);
     text-decoration: none;
 
+}
+
+
+.carousel-inner img{
+    display: inline;
+    width: 400px;
+    height: 800px;
+    margin: 10px 10px;
+    object-fit: cover;
 }
 
 .imagenCarruselAccesorios{
@@ -156,6 +170,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
 
 }
+
 
 
 /* Aplicando media query */

@@ -15,14 +15,31 @@
         <header class="cabecera">
             <img class="logo" src="./images/logo-removebg-preview.png" alt="SoySoy">
             <!--Menú de opciones-->
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/accesorios.html">Accesorios</a></li>
-                    <li><a href="pages/zapatos.html">Zapatos</a></li>
-                    <li><a href="pages/buzos.html">Buzos</a></li>
-                    <li><a href="pages/joyeria.html">Joyería</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg cabecera d-flex justify-content-end">
+                <div class="menu">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/accesorios.html">Accesorios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/zapatos.html">Zapatos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/buzos.html">Buzos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/joyeria.html">Joyería</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
         </header>
 
@@ -30,32 +47,38 @@
 
         <!--Carrusel de imagenes linkeadas a Accesorios, Zapatos, Buzos y Joyería-->
 
-    <main class="gridContainer">    
+        <section class="d-flex justify-content-center">
+            <div id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/accesorios.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/zapatos.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/buzos.jpg" class="d-block  w-100" alt="...">                 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/joyeria.jpg" class="d-block w-100" alt="...">                 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-                <div class="gridItem">
-                    <a href="/pages/accesorios.html">
-                        <img src="images/accesorios.jpg" alt="Accesorios" class="imagenCarruselAccesorios">
-                    </a>
-                </div>
-                <div class="gridItem">   
-                    <a href="pages/zapatos.html">
-                        <img src="images/zapatos.jpg" alt="Zapatos" class="imagenCarruselZapatos">
-                    </a>
-                </div>
-                <div class="gridItem">    
-                    <a href="pages/buzos.html">
-                        <img src="images/buzos.jpg" alt="Buzos" class="imagenCarruselBuzos">
-                    </a>
-                </div>
-                <div class="gridItem">    
-                    <a href="pages/joyeria.html">
-                        <img src="images/joyeria.jpg" alt="Joyería" class="imagenCarruselJoyeria">
-                    </a>
-                </div>           
-            </main>                
-        <!--Fin carrusel de imagenes-->
+
 
         <!--Seccion para 'Tienda Física' (mapa), 'Nuestros Clientes Dicen' y 'Pagos On line'-->
+        
+
         <section>
             <!--Tienda física-->
        
