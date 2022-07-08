@@ -1,0 +1,109 @@
+.carousel-inner img{
+    display: inline;
+    width: 400px;
+    height: 800px;
+    margin: 10px 10px;
+    object-fit: cover;
+}
+
+.imagenCarruselAccesorios{
+    display: inline;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselAccesorios:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
+
+.imagenCarruselZapatos{
+    display: inline;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselZapatos:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
+
+.imagenCarruselBuzos{
+    display: inline;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselBuzos:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
+
+.imagenCarruselJoyeria{
+    display: inline;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenCarruselJoyeria:hover{
+
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(3, 71, 6);
+    object-fit: cover;
+}
+.gridContainer{
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: repeat(4, 1fr);
+
+}

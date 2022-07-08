@@ -1,398 +1,346 @@
-*{
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+/*Aplicando variables Sass*/
+/*Aplicando e importando componentes Sass*/
+.carousel-inner img {
+  display: inline;
+  width: 400px;
+  height: 800px;
+  margin: 10px 10px;
+  object-fit: cover;
 }
 
-.cabecera{
+.imagenCarruselAccesorios {
+  display: inline;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
+  transition: all 1s;
+}
 
-    background: linear-gradient(-90deg, rgb(211, 166, 223), white);
-    background-size: 100%;
-    width: 100%;
-    padding: 1em;
+.imagenCarruselAccesorios:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(3, 71, 6);
+  object-fit: cover;
+}
+
+.imagenCarruselZapatos {
+  display: inline;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.imagenCarruselZapatos:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(3, 71, 6);
+  object-fit: cover;
+}
+
+.imagenCarruselBuzos {
+  display: inline;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.imagenCarruselBuzos:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(3, 71, 6);
+  object-fit: cover;
+}
+
+.imagenCarruselJoyeria {
+  display: inline;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.imagenCarruselJoyeria:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(3, 71, 6);
+  object-fit: cover;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.menu a:hover {
+  color: rgb(241, 99, 206);
+}
+
+.menu ul {
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  float: right;
+}
+
+.menu ul li {
+  display: inline;
+  justify-items: right;
+  justify-content: right;
+  padding: 60px;
+  font-size: 18px;
+}
+
+.menu ul li a {
+  text-align: right;
+  color: rgb(44, 3, 71);
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.cabecera {
+  /*Aplicando variables Sass*/
+  background: linear-gradient(-90deg, rgb(211, 166, 223), white);
+  background-size: 100%;
+  width: 100%;
+  padding: 1em;
 }
 
 .navClass {
-    background: linear-gradient(-90deg, rgb(211, 166, 223), white);
-    background-size: cover;
-    padding: 1em;
+  /*Aplicando variables Sass*/
+  background: linear-gradient(-90deg, rgb(211, 166, 223), white);
+  background-size: cover;
+  padding: 1em;
 }
 
-.logo{
-    height: 15%;
-    width: 15%;
-    
+.logo {
+  height: 15%;
+  width: 15%;
 }
-
-
-
-.menu a:hover{
-    color: blueviolet;
-}
-
-
-.menu ul{
-    
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    float: right;
-
-}
-
-.menu ul li{
-
-    display: inline;
-    justify-items: right;
-    justify-content: right;
-    padding: 60px;
-    font-size: 18px;
-
-}
-
-.menu ul li a{
-    text-align: right;
-    color: rgb(44, 3, 71);
-    text-decoration: none;
-
-}
-
-
-.carousel-inner img{
-    display: inline;
-    width: 400px;
-    height: 800px;
-    margin: 10px 10px;
-    object-fit: cover;
-}
-
-.imagenCarruselAccesorios{
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
-}
-
-.imagenCarruselAccesorios:hover{
-
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(3, 71, 6);
-    object-fit: cover;
-}
-
-.imagenCarruselZapatos{
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
-}
-
-.imagenCarruselZapatos:hover{
-
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(3, 71, 6);
-    object-fit: cover;
-}
-
-.imagenCarruselBuzos{
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
-}
-
-.imagenCarruselBuzos:hover{
-
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(3, 71, 6);
-    object-fit: cover;
-}
-
-.imagenCarruselJoyeria{
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
-}
-
-.imagenCarruselJoyeria:hover{
-
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(3, 71, 6);
-    object-fit: cover;
-}
-.gridContainer{
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-
-
 
 /* Aplicando media query */
-
 @media screen and (max-width: 946px) {
-
-
-    .imagenCarruselJoyeria{
-        width:100%;
-        max-width:400px;
-
-    } 
-
-    .imagenCarruselAccesorios{
-        width:100%;
-        max-width:400px;
-    }
-    
-    
-    .imagenCarruselZapatos{
-        width:100%;
-        max-width:400px;
-    }
-    
-    .imagenCarruselBuzos{
-        width:100%;
-        max-width:400px;
-    }
-
-    .mapaTiendaFisica{
-        width:100%;
-        max-width:400px;
-
-    } 
-    .clientesFelices {
-
-        width:100%;
-        max-width:400px;
-    } 
-    .listaMetodosPago {
-
-        width:100%;
-        max-width:400px;
-    }
-    
-    .imagenesAccesorios{
-
-        width:100%;
-        max-width:400px;
-    }
-
+  .imagenCarruselJoyeria {
+    width: 100%;
+    max-width: 400px;
+  }
+  .imagenCarruselAccesorios {
+    width: 100%;
+    max-width: 400px;
+  }
+  .imagenCarruselZapatos {
+    width: 100%;
+    max-width: 400px;
+  }
+  .imagenCarruselBuzos {
+    width: 100%;
+    max-width: 400px;
+  }
+  .mapaTiendaFisica {
+    width: 100%;
+    max-width: 400px;
+  }
+  .clientesFelices {
+    width: 100%;
+    max-width: 400px;
+  }
+  .listaMetodosPago {
+    width: 100%;
+    max-width: 400px;
+  }
+  .imagenesAccesorios {
+    width: 100%;
+    max-width: 400px;
+  }
 }
-
 /* Fin media query */
-
-.gridContainer2{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
-    
-    grid-template-areas: 
-    'mapaTiendaFisica clientesFelices listaMetodosPago';
-    
+.gridContainer2 {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "mapaTiendaFisica clientesFelices listaMetodosPago";
 }
 
-.gridContainer3{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
-    
-    grid-template-areas: 
-    'redesSociales sobreNostros datosContacto';
-    
+.gridContainer3 {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "redesSociales sobreNostros datosContacto";
 }
 
-.gridContainerAccesorios{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
+.gridContainerAccesorios {
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.titulos{
-
-    margin: 10px 30px;
+.titulos {
+  margin: 10px 30px;
 }
 
-.map{
-
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    color: rgb(44, 3, 71);
-    border: solid;
+.map {
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+  color: rgb(44, 3, 71);
+  border: solid;
 }
 
-.nuestrosClientes{
-
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    color: rgb(44, 3, 71);
-    border: solid;
-
+.nuestrosClientes {
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+  color: rgb(44, 3, 71);
+  border: solid;
 }
 
-.nuestrosClientes img{
-width: 300px;
-height: 300px;
+.nuestrosClientes img {
+  width: 300px;
+  height: 300px;
 }
 
-.metodosPago ul li{
-    padding: 20px 60px;
-    font-size: 18px;
-    list-style: none;
+.metodosPago ul li {
+  padding: 20px 60px;
+  font-size: 18px;
+  list-style: none;
 }
 
 .footerData {
-    margin: 10px 30px;
-    list-style: none;
-    font-weight: 400;
+  margin: 10px 30px;
+  list-style: none;
+  font-weight: 400;
 }
 
-.footer{
-
-    background: linear-gradient(-90deg, rgb(211, 166, 223), white);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 1em;
+.footer {
+  /*Aplicando variables Sass*/
+  background: linear-gradient(-90deg, rgb(211, 166, 223), white);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
 }
-
-
 
 /*Clases accesorios*/
-
-.videoPresentacion{
-    object-fit: cover;
-    text-align: center;
+.videoPresentacion {
+  object-fit: cover;
+  text-align: center;
 }
 
-.imagenesAccesorios{
-    
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
+.imagenesAccesorios {
+  display: inline;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
+  transition: all 1s;
 }
 
-.imagenesAccesorios:hover{
-    
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-
+.imagenesAccesorios:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
-
-.parrafosAccesorios p{
-    
-    object-fit: cover;
-    margin: 10px 30px;
-    font-size: small;
+.parrafosAccesorios p {
+  object-fit: cover;
+  margin: 10px 30px;
+  font-size: small;
 }
 
 /*Clases Zapatos*/
-
-.imagenesZapatos{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
+.imagenesZapatos {
+  display: inline;
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
-.parrafosZapatos p{
-    margin: 10px 30px;
+.parrafosZapatos p {
+  margin: 10px 30px;
 }
-
 
 /*Clases Buzos*/
-
-.imagenesBuzos{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
+.imagenesBuzos {
+  display: inline;
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
-.parrafosBuzos p{
-    margin: 10px 30px;
+.parrafosBuzos p {
+  margin: 10px 30px;
 }
 
 /*Clases Joyería*/
-
-.imagenesJoyeria{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
+.imagenesJoyeria {
+  display: inline;
+  width: 300px;
+  height: 300px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
-.parrafosJoyeria p{
-    margin: 10px 30px;
+.parrafosJoyeria p {
+  margin: 10px 30px;
 }
+
+/*# sourceMappingURL=style.css.map */
