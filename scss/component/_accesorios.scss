@@ -1,0 +1,40 @@
+/*Clases accesorios*/
+
+.videoPresentacion{
+    object-fit: cover;
+    text-align: center;
+}
+
+.imagenesAccesorios{
+    
+    display: inline;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.imagenesAccesorios:hover{
+    
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+
+}
+
+
+.parrafosAccesorios p{
+    
+    object-fit: cover;
+    margin: 10px 30px;
+    font-size: small;
+}

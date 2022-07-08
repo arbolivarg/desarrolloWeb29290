@@ -1,0 +1,30 @@
+.gridContainer2{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-template-areas: 
+    'mapaTiendaFisica clientesFelices listaMetodosPago';
+    
+}
+
+.gridContainer3{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-template-areas: 
+    'redesSociales sobreNostros datosContacto';
+    
+}
+
+.gridContainerAccesorios{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.titulos{
+
+    margin: 10px 30px;
+}

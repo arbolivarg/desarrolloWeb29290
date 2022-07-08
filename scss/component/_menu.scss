@@ -2,7 +2,7 @@
     color: rgb(241, 99, 206);
 }
 
-
+/*Nesting y selector &*/
 .menu ul{
     
     list-style: none;
@@ -10,21 +10,24 @@
     font-weight: 500;
     float: right;
 
+    & li{
+
+        display: inline;
+        justify-items: right;
+        justify-content: right;
+        padding: 60px;
+        font-size: 18px;
+    
+     & a{
+            text-align: right;
+            color: rgb(44, 3, 71);
+            text-decoration: none;
+        
+        }
+
+    }
+
 }
 
-.menu ul li{
 
-    display: inline;
-    justify-items: right;
-    justify-content: right;
-    padding: 60px;
-    font-size: 18px;
 
-}
-
-.menu ul li a{
-    text-align: right;
-    color: rgb(44, 3, 71);
-    text-decoration: none;
-
-}

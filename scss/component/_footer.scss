@@ -1,0 +1,14 @@
+.footerData {
+    margin: 10px 30px;
+    list-style: none;
+    font-weight: 400;
+}
+
+.footer{
+    /*Aplicando variables Sass*/
+    background: $main-color;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}

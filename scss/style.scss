@@ -7,259 +7,28 @@
 @import './variables';
 /*Aplicando e importando componentes Sass*/
 @import './component/carousel';
-@import './component/menu';
+@import './component/menu'; /*Dentro de este componente usé Nesting y selector &*/
+@import './component/accesorios';
+@import './component/navbar';
+@import './component/joyeria';
+@import './component/buzos';
+@import './component/zapatos';
+@import './component/indexSection';
+@import './component/_footer';
+@import './component/grids';
+@import './component/mediaQueries';
 
-body{
-    background-color: rgb(255, 255, 255);
-    
-}
 
-
-
-.cabecera{
-    /*Aplicando variables Sass*/
-    background: $main-color;
-    background-size: 100%;
-    width: 100%;
-    padding: 1em;
-}
-
-.navClass {
-    /*Aplicando variables Sass*/
-    background: $main-color;
-    background-size: cover;
-    padding: 1em;
-}
-
-.logo{
-    height: 15%;
-    width: 15%;
-    
+.bs-body-bg{
+    background-color: rgb(227, 222, 245);
 }
 
 
 
 
-/* Aplicando media query */
-
-@media screen and (max-width: 946px) {
-
-
-    .imagenCarruselJoyeria{
-        width:100%;
-        max-width:400px;
-
-    } 
-
-    .imagenCarruselAccesorios{
-        width:100%;
-        max-width:400px;
-    }
-    
-    
-    .imagenCarruselZapatos{
-        width:100%;
-        max-width:400px;
-    }
-    
-    .imagenCarruselBuzos{
-        width:100%;
-        max-width:400px;
-    }
-
-    .mapaTiendaFisica{
-        width:100%;
-        max-width:400px;
-
-    } 
-    .clientesFelices {
-
-        width:100%;
-        max-width:400px;
-    } 
-    .listaMetodosPago {
-
-        width:100%;
-        max-width:400px;
-    }
-    
-    .imagenesAccesorios{
-
-        width:100%;
-        max-width:400px;
-    }
-
-}
-
-/* Fin media query */
-
-.gridContainer2{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
-    
-    grid-template-areas: 
-    'mapaTiendaFisica clientesFelices listaMetodosPago';
-    
-}
-
-.gridContainer3{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
-    
-    grid-template-areas: 
-    'redesSociales sobreNostros datosContacto';
-    
-}
-
-.gridContainerAccesorios{
-    display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.titulos{
-
-    margin: 10px 30px;
-}
-
-.map{
-
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    color: rgb(44, 3, 71);
-    border: solid;
-}
-
-.nuestrosClientes{
-
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    color: rgb(44, 3, 71);
-    border: solid;
-
-}
-
-.nuestrosClientes img{
-width: 300px;
-height: 300px;
-}
-
-.metodosPago ul li{
-    padding: 20px 60px;
-    font-size: 18px;
-    list-style: none;
-}
-
-.footerData {
-    margin: 10px 30px;
-    list-style: none;
-    font-weight: 400;
-}
-
-.footer{
-    /*Aplicando variables Sass*/
-    background: $main-color;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 1em;
-}
 
 
 
-/*Clases accesorios*/
-
-.videoPresentacion{
-    object-fit: cover;
-    text-align: center;
-}
-
-.imagenesAccesorios{
-    
-    display: inline;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-    transition: all 1s;
-}
-
-.imagenesAccesorios:hover{
-    
-    display: inline;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-
-}
 
 
-.parrafosAccesorios p{
-    
-    object-fit: cover;
-    margin: 10px 30px;
-    font-size: small;
-}
 
-/*Clases Zapatos*/
-
-.imagenesZapatos{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-}
-
-.parrafosZapatos p{
-    margin: 10px 30px;
-}
-
-
-/*Clases Buzos*/
-
-.imagenesBuzos{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-}
-
-.parrafosBuzos p{
-    margin: 10px 30px;
-}
-
-/*Clases Joyería*/
-
-.imagenesJoyeria{
-    
-    display: inline;
-    width: 300px;
-    height: 300px;
-    margin: 10px 30px;
-    border: solid;
-    color: rgb(44, 3, 71);
-    object-fit: cover;
-}
-
-.parrafosJoyeria p{
-    margin: 10px 30px;
-}

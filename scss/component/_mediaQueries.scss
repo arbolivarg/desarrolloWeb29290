@@ -1,0 +1,52 @@
+/* Aplicando media query */
+
+@media screen and (max-width: 946px) {
+
+
+    .imagenCarruselJoyeria{
+        width:100%;
+        max-width:400px;
+
+    } 
+
+    .imagenCarruselAccesorios{
+        width:100%;
+        max-width:400px;
+    }
+    
+    
+    .imagenCarruselZapatos{
+        width:100%;
+        max-width:400px;
+    }
+    
+    .imagenCarruselBuzos{
+        width:100%;
+        max-width:400px;
+    }
+
+    .mapaTiendaFisica{
+        width:100%;
+        max-width:400px;
+
+    } 
+    .clientesFelices {
+
+        width:100%;
+        max-width:400px;
+    } 
+    .listaMetodosPago {
+
+        width:100%;
+        max-width:400px;
+    }
+    
+    .imagenesAccesorios{
+
+        width:100%;
+        max-width:400px;
+    }
+
+}
+
+/* Fin media query */
