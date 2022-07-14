@@ -24,7 +24,8 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+/*Aplicando extends*/
 .titulos{
-
     margin: 10px 30px;
+    @extend %colorTitulo;
 }

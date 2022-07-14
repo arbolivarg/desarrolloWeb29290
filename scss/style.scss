@@ -17,12 +17,20 @@
 @import './component/_footer';
 @import './component/grids';
 @import './component/mediaQueries';
+@import './mapas';
+@import './extends';
+@import './mixins.scss';
 
 
-.bs-body-bg{
-    background-color: rgb(227, 222, 245);
+/*Aplicando mapa*/
+.bs-body-bg {
+    background-color: map-get($paletaSitio, principal-color)
 }
 
+/*Aplicando mixin*/
+.logo {
+    @include logotipo (17%, 17%)
+}
 
 
 
