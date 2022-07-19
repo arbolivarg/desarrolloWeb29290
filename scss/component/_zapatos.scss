@@ -10,8 +10,22 @@
     border: solid;
     color: rgb(44, 3, 71);
     object-fit: cover;
+    transition: all 1s;
 }
 
 .parrafosZapatos p{
     margin: 10px 30px;
+}
+
+.imagenesZapatos:hover{
+    
+    display: inline;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px;
+    border: solid;
+    color: rgb(44, 3, 71);
+    object-fit: cover;
+
 }

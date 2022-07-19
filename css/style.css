@@ -197,10 +197,22 @@
   border: solid;
   color: rgb(44, 3, 71);
   object-fit: cover;
+  transition: all 1s;
 }
 
 .parrafosJoyeria p {
   margin: 10px 30px;
+}
+
+.imagenesJoyeria:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
 /*Clases Buzos*/
@@ -212,10 +224,22 @@
   border: solid;
   color: rgb(44, 3, 71);
   object-fit: cover;
+  transition: all 1s;
 }
 
 .parrafosBuzos p {
   margin: 10px 30px;
+}
+
+.imagenesBuzos:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
 /*Clases Zapatos*/
@@ -227,10 +251,22 @@
   border: solid;
   color: rgb(44, 3, 71);
   object-fit: cover;
+  transition: all 1s;
 }
 
 .parrafosZapatos p {
   margin: 10px 30px;
+}
+
+.imagenesZapatos:hover {
+  display: inline;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 10px 30px;
+  border: solid;
+  color: rgb(44, 3, 71);
+  object-fit: cover;
 }
 
 .map {
