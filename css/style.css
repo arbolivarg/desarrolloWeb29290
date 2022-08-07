@@ -146,14 +146,17 @@
 
 .imagenesAccesorios {
   display: inline;
-  justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 10px 30px;
   border: solid;
   color: rgb(44, 3, 71);
   object-fit: cover;
   transition: all 1s;
+}
+
+.parrafosAccesorios p {
+  margin: 10px 30px;
 }
 
 .imagenesAccesorios:hover {
@@ -165,12 +168,6 @@
   border: solid;
   color: rgb(44, 3, 71);
   object-fit: cover;
-}
-
-.parrafosAccesorios p {
-  object-fit: cover;
-  margin: 10px 30px;
-  font-size: small;
 }
 
 .cabecera {
@@ -363,10 +360,6 @@
     max-width: 400px;
   }
   .listaMetodosPago {
-    width: 100%;
-    max-width: 400px;
-  }
-  .imagenesAccesorios {
     width: 100%;
     max-width: 400px;
   }
